@@ -4,9 +4,13 @@ This repository contains an end-to-end QA workflow for SCRUM-101, the SauceDemo 
 
 ## What Is Included
 
+![End-to-End Agentic AI QA Workflow](docs/diagrams/end-to-end-agentic-ai-qa-workflow.svg)
+
 | Path | Purpose |
 | --- | --- |
 | `skill.md` | Master prompt defining the 7-step workflow. |
+| `docs/diagrams/end-to-end-agentic-ai-qa-workflow.svg` | Editable visual workflow diagram for all seven QA steps. |
+| `docs/diagrams/end-to-end-agentic-ai-qa-workflow.png` | Rendered PNG version of the workflow diagram for sharing. |
 | `user-stories/SCRUM-101-ecommerce-checkout.md` | Input user story, acceptance criteria, app URL, and credentials. |
 | `specs/saucedemo-checkout-test-plan.md` | Comprehensive checkout test plan. |
 | `tests/saucedemo-checkout/` | Playwright automation suite for checkout scenarios. |

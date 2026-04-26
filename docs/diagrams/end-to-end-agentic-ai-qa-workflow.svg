@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050" role="img" aria-labelledby="title desc">
+  <title id="title">End-to-End Agentic AI QA Workflow</title>
+  <desc id="desc">Seven-step QA workflow from SCRUM-101 user story through planning, exploratory testing, automation generation, healing, reporting, and Git commit.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f9f6ef"/>
+      <stop offset="55%" stop-color="#eef7fb"/>
+      <stop offset="100%" stop-color="#f6f1fb"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="100%" stop-color="#ffe48a"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d9f0ff"/>
+      <stop offset="100%" stop-color="#b8dcf5"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3defb"/>
+      <stop offset="100%" stop-color="#dfc1f0"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dff7e6"/>
+      <stop offset="100%" stop-color="#c3ebd0"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe2c5"/>
+      <stop offset="100%" stop-color="#ffc999"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-12%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#1d2430" flood-opacity="0.18"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M2 2 L17 9 L2 16 Z" fill="#3f7fa9"/>
+    </marker>
+    <marker id="arrowPink" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M2 2 L17 9 L2 16 Z" fill="#cf4f83"/>
+    </marker>
+    <marker id="arrowGold" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M2 2 L17 9 L2 16 Z" fill="#d6a632"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M2 2 L17 9 L2 16 Z" fill="#3f9f67"/>
+    </marker>
+    <style>
+      .title { font: 800 54px Arial, Helvetica, sans-serif; fill: #111827; letter-spacing: 0; }
+      .subtitle { font: 500 22px Arial, Helvetica, sans-serif; fill: #475569; }
+      .step-title { font: 800 27px Arial, Helvetica, sans-serif; fill: #0f172a; letter-spacing: 0; }
+      .step-title-light { font: 800 27px Arial, Helvetica, sans-serif; fill: #ffffff; letter-spacing: 0; }
+      .body { font: 500 20px Arial, Helvetica, sans-serif; fill: #1f2937; }
+      .body-small { font: 500 17px Arial, Helvetica, sans-serif; fill: #334155; }
+      .label { font: 800 19px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .mono { font: 700 17px "SFMono-Regular", Consolas, monospace; fill: #0f172a; }
+      .card { stroke-width: 3; filter: url(#shadow); }
+      .header { stroke-width: 0; }
+      .arrow { fill: none; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+      .thin-arrow { fill: none; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 12 10; }
+      .icon-line { fill: none; stroke: #0f172a; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .icon-fill { fill: #ffffff; stroke: #0f172a; stroke-width: 4; }
+      .pill { fill: rgba(255,255,255,0.72); stroke: rgba(15,23,42,0.18); stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1050" fill="url(#bg)"/>
+  <circle cx="1430" cy="90" r="95" fill="#e8f5ff" opacity="0.8"/>
+  <circle cx="180" cy="920" r="120" fill="#fff4d7" opacity="0.78"/>
+  <circle cx="1350" cy="900" r="135" fill="#efe4fb" opacity="0.78"/>
+
+  <text x="800" y="74" text-anchor="middle" class="title">End-to-End Agentic AI QA Workflow</text>
+  <text x="800" y="108" text-anchor="middle" class="subtitle">From SCRUM-101 user story to committed Playwright automation and QA report</text>
+
+  <!-- Start -->
+  <g transform="translate(50 160)">
+    <rect width="355" height="190" rx="28" fill="#ffe5ee" stroke="#c85d86" stroke-width="3" filter="url(#shadow)"/>
+    <text x="28" y="46" class="step-title">Start: User Provides</text>
+    <text x="28" y="80" class="step-title">User Story SCRUM-101</text>
+    <g transform="translate(44 103)">
+      <circle cx="42" cy="25" r="24" fill="#ffd0bd" stroke="#0f172a" stroke-width="3"/>
+      <path d="M4 88 C10 55 75 55 82 88 Z" fill="#6fb6e8" stroke="#0f172a" stroke-width="3"/>
+      <path d="M18 22 C23 -2 62 -2 66 23" fill="#4c5673" stroke="#0f172a" stroke-width="3"/>
+    </g>
+    <path d="M150 150 H210" class="icon-line" marker-end="url(#arrowPink)"/>
+    <g transform="translate(240 98)">
+      <path d="M0 0 H68 L96 28 V100 H0 Z" fill="#ffffff" stroke="#0f172a" stroke-width="4"/>
+      <path d="M68 0 V28 H96" fill="none" stroke="#0f172a" stroke-width="4"/>
+      <path d="M18 42 H76 M18 58 H76 M18 74 H58" class="icon-line"/>
+    </g>
+  </g>
+
+  <path d="M405 255 H500" class="arrow" stroke="#cf4f83" marker-end="url(#arrowPink)"/>
+
+  <!-- Step 1 -->
+  <g transform="translate(535 145)">
+    <rect width="1015" height="150" rx="28" fill="url(#yellow)" stroke="#d2aa43" class="card"/>
+    <g transform="translate(35 28)">
+      <path d="M0 0 H76 L108 32 V94 H0 Z" fill="#ffffff" stroke="#0f172a" stroke-width="4"/>
+      <path d="M76 0 V32 H108" fill="none" stroke="#0f172a" stroke-width="4"/>
+      <text x="19" y="48" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="800" fill="#2563eb">Md</text>
+      <circle cx="92" cy="86" r="24" fill="#bfe3ff" stroke="#0f172a" stroke-width="4"/>
+      <path d="M109 103 L132 126" class="icon-line"/>
+    </g>
+    <path d="M190 75 H255" class="arrow" stroke="#d6a632" marker-end="url(#arrowGold)"/>
+    <g transform="translate(280 40)">
+      <rect x="0" y="14" width="54" height="66" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="4"/>
+      <path d="M13 32 H41 M13 46 H41 M13 60 H34" class="icon-line"/>
+      <path d="M-18 6 H-3 M-18 6 V21 M72 6 H57 M72 6 V21 M-18 88 H-3 M-18 88 V73 M72 88 H57 M72 88 V73" class="icon-line"/>
+    </g>
+    <text x="390" y="62" class="step-title">STEP 1: Read User Story</text>
+    <text x="390" y="96" class="body">Extract requirements, acceptance criteria, URL, credentials,</text>
+    <text x="390" y="123" class="body">and testing scope</text>
+    <text x="610" y="123" class="mono">Input: SCRUM-101 user story markdown</text>
+  </g>
+
+  <path d="M825 295 V374" class="arrow" stroke="#d6a632" marker-end="url(#arrowGold)"/>
+
+  <!-- Step 2 -->
+  <g transform="translate(70 390)">
+    <rect width="620" height="250" rx="28" fill="url(#blue)" stroke="#3f7fa9" class="card"/>
+    <rect width="620" height="72" rx="28" fill="#3f8bc0" stroke="#2f6f9c" stroke-width="3"/>
+    <text x="110" y="47" class="step-title-light">STEP 2: AI Test Plan Creation</text>
+    <g transform="translate(35 20)">
+      <rect x="0" y="0" width="54" height="38" rx="10" fill="#d7f2ff" stroke="#0f172a" stroke-width="4"/>
+      <circle cx="17" cy="19" r="5" fill="#0f172a"/>
+      <circle cx="37" cy="19" r="5" fill="#0f172a"/>
+      <path d="M18 32 H36" class="icon-line"/>
+      <path d="M10 -12 V0 M44 -12 V0" class="icon-line"/>
+    </g>
+    <g transform="translate(38 98)">
+      <circle cx="82" cy="74" r="54" fill="#e6f8ff" stroke="#0f172a" stroke-width="4"/>
+      <rect x="41" y="49" width="82" height="54" rx="12" fill="#ffffff" stroke="#0f172a" stroke-width="4"/>
+      <circle cx="66" cy="76" r="9" fill="#4eb4d8"/>
+      <circle cx="98" cy="76" r="9" fill="#4eb4d8"/>
+      <path d="M70 96 H94" class="icon-line"/>
+      <path d="M26 62 C38 18 126 18 139 62" fill="#d8b681" stroke="#0f172a" stroke-width="4"/>
+      <path d="M16 70 H151" class="icon-line"/>
+      <path d="M142 116 L218 82 L226 158 L154 186 Z" fill="#fff7d6" stroke="#0f172a" stroke-width="4"/>
+      <path d="M162 112 L174 173 M188 102 L198 164 M153 132 L218 103 M151 154 L221 128" stroke="#8b7a45" stroke-width="3"/>
+    </g>
+    <text x="285" y="122" class="label">Agent:</text>
+    <text x="360" y="122" class="body-small">playwright-test-planner</text>
+    <text x="285" y="158" class="label">Actions:</text>
+    <text x="370" y="158" class="body">Explore app workflows</text>
+    <text x="285" y="194" class="label">Output:</text>
+    <text x="365" y="194" class="mono">specs/saucedemo-</text>
+    <text x="365" y="220" class="mono">checkout-test-plan.md</text>
+  </g>
+
+  <path d="M690 510 H850" class="arrow" stroke="#3f7fa9" marker-end="url(#arrowBlue)"/>
+
+  <!-- Step 3 -->
+  <g transform="translate(875 380)">
+    <rect width="675" height="260" rx="28" fill="url(#purple)" stroke="#8f55a9" class="card"/>
+    <rect width="675" height="75" rx="28" fill="#9658ad" stroke="#734080" stroke-width="3"/>
+    <g transform="translate(38 18)">
+      <circle cx="21" cy="21" r="19" fill="#c7e8ff" stroke="#0f172a" stroke-width="4"/>
+      <path d="M36 36 L66 66" class="icon-line"/>
+    </g>
+    <text x="120" y="48" class="step-title-light">STEP 3: Exploratory Testing</text>
+    <text x="54" y="122" class="label">Tool:</text>
+    <text x="118" y="122" class="body">Playwright Browser MCP</text>
+    <text x="54" y="164" class="label">Actions:</text>
+    <text x="150" y="164" class="body">Manual test execution, screenshots,</text>
+    <text x="150" y="191" class="body">and observations</text>
+    <text x="54" y="226" class="label">Output:</text>
+    <text x="138" y="226" class="mono">test-results/SCRUM-101-manual-</text>
+    <text x="138" y="252" class="mono">exploratory-results.md</text>
+    <g transform="translate(518 116)">
+      <rect x="0" y="0" width="92" height="72" rx="10" fill="#ffffff" stroke="#0f172a" stroke-width="4"/>
+      <rect x="13" y="16" width="62" height="8" fill="#94a3b8"/>
+      <rect x="13" y="34" width="40" height="17" rx="3" fill="#60a5fa"/>
+      <rect x="58" y="34" width="23" height="17" rx="3" fill="#fb923c"/>
+      <path d="M62 52 L115 88 L82 97 L72 129 Z" fill="#ffffff" stroke="#0f172a" stroke-width="4"/>
+      <rect x="72" y="-22" width="78" height="38" rx="18" fill="#5661a9" stroke="#0f172a" stroke-width="4"/>
+      <text x="111" y="4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#ffffff">MCP</text>
+    </g>
+  </g>
+
+  <path d="M1200 640 V710 H865" class="arrow" stroke="#8f55a9" marker-end="url(#arrowPink)"/>
+
+  <!-- Step 4 -->
+  <g transform="translate(530 715)">
+    <rect width="500" height="245" rx="28" fill="#ffffff" stroke="#94a3b8" class="card"/>
+    <rect width="500" height="70" rx="28" fill="#111827"/>
+    <text x="42" y="45" class="step-title-light">STEP 4: Generate Automation Scripts</text>
+    <g transform="translate(42 100)">
+      <path d="M0 0 H78 L112 34 V114 H0 Z" fill="#f8fafc" stroke="#0f172a" stroke-width="4"/>
+      <path d="M78 0 V34 H112" class="icon-line"/>
+      <rect x="18" y="34" width="78" height="17" rx="3" fill="#5eead4"/>
+      <path d="M23 72 L43 91 L23 110 M88 72 L68 91 L88 110 M55 113 L64 69" stroke="#0f172a" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="185" y="118" class="label">Agent:</text>
+    <text x="260" y="118" class="body-small">playwright-test-generator</text>
+    <text x="185" y="154" class="label">Inputs:</text>
+    <text x="260" y="154" class="body-small">Test plan + exploratory selectors</text>
+    <text x="185" y="190" class="label">Output:</text>
+    <text x="260" y="190" class="mono">tests/saucedemo-</text>
+    <text x="260" y="216" class="mono">checkout/</text>
+  </g>
+
+  <!-- Step 5 -->
+  <g transform="translate(1085 715)">
+    <rect width="465" height="245" rx="28" fill="url(#orange)" stroke="#c87932" class="card"/>
+    <rect width="465" height="70" rx="28" fill="#d97706"/>
+    <text x="42" y="45" class="step-title-light">STEP 5: Execute and Heal Tests</text>
+    <g transform="translate(40 98)">
+      <rect x="0" y="0" width="112" height="88" rx="10" fill="#1f2937" stroke="#0f172a" stroke-width="4"/>
+      <path d="M18 24 H78 M18 42 H65 M18 60 H88" stroke="#93c5fd" stroke-width="5"/>
+      <path d="M85 82 L123 44 L145 66 L107 104 Z" fill="#e5e7eb" stroke="#0f172a" stroke-width="4"/>
+      <circle cx="132" cy="55" r="17" fill="#e5e7eb" stroke="#0f172a" stroke-width="4"/>
+    </g>
+    <text x="190" y="116" class="label">Agent:</text>
+    <text x="265" y="116" class="body-small">playwright-test-healer</text>
+    <text x="190" y="152" class="label">Actions:</text>
+    <text x="283" y="152" class="body-small">Run, debug, fix, rerun</text>
+    <text x="190" y="188" class="label">Output:</text>
+    <text x="268" y="188" class="body-small">Stable cross-browser</text>
+    <text x="268" y="215" class="body-small">test suite</text>
+  </g>
+
+  <path d="M1030 838 H1085" class="arrow" stroke="#3f7fa9" marker-end="url(#arrowBlue)"/>
+
+  <!-- Step 6 -->
+  <g transform="translate(50 720)">
+    <rect width="425" height="240" rx="28" fill="url(#green)" stroke="#3f9f67" class="card"/>
+    <rect width="425" height="70" rx="28" fill="#29945a"/>
+    <text x="42" y="45" class="step-title-light">STEP 6: Create Test Report</text>
+    <text x="42" y="113" class="label">Inputs:</text>
+    <text x="120" y="113" class="body-small">Manual + automation + healing results</text>
+    <text x="42" y="153" class="label">Includes:</text>
+    <text x="132" y="153" class="body-small">Summary, defects, evidence, risks</text>
+    <text x="42" y="193" class="label">Output:</text>
+    <text x="120" y="193" class="mono">test-results/SCRUM-101-</text>
+    <text x="120" y="219" class="mono">checkout-test-report.md</text>
+  </g>
+
+  <path d="M530 838 H475" class="arrow" stroke="#3f9f67" marker-end="url(#arrowGreen)"/>
+  <path d="M760 715 C650 665 520 664 370 720" class="thin-arrow" stroke="#3f9f67" marker-end="url(#arrowGreen)"/>
+  <path d="M1320 715 C1160 650 800 652 395 720" class="thin-arrow" stroke="#3f9f67" marker-end="url(#arrowGreen)"/>
+
+  <!-- Step 7 -->
+  <g transform="translate(50 980)">
+    <rect width="1500" height="52" rx="22" fill="#172033" filter="url(#shadow)"/>
+    <text x="38" y="34" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#ffffff">STEP 7: Commit to Git Repository</text>
+    <text x="505" y="34" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#dbeafe">Stage artifacts, commit conventional message, push to GitHub remote</text>
+    <text x="1190" y="34" font-family="SFMono-Regular, Consolas, monospace" font-size="18" font-weight="700" fill="#fef3c7">github MCP or git CLI</text>
+  </g>
+  <path d="M250 960 V980" class="arrow" stroke="#3f9f67" marker-end="url(#arrowGreen)"/>
+  <path d="M1320 960 V980" class="arrow" stroke="#3f9f67" marker-end="url(#arrowGreen)"/>
+
+  <!-- Workflow legend -->
+  <g transform="translate(1082 307)">
+    <rect width="468" height="58" rx="22" fill="#ffffff" stroke="#cbd5e1" stroke-width="3" filter="url(#shadow)"/>
+    <text x="24" y="37" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800" fill="#0f172a">Legend</text>
+    <rect x="117" y="18" width="22" height="22" rx="5" fill="#3f8bc0"/>
+    <text x="151" y="36" class="body-small">Agent creation</text>
+    <rect x="291" y="18" width="22" height="22" rx="5" fill="#9658ad"/>
+    <text x="325" y="36" class="body-small">MCP/manual</text>
+  </g>
+
+  <!-- Supporting inputs/outputs ribbon -->
+  <g transform="translate(720 315)">
+    <rect width="330" height="42" rx="21" class="pill"/>
+    <text x="165" y="28" text-anchor="middle" class="body-small">Plan drives exploration and automation</text>
+  </g>
+  <path d="M825 357 C800 405 760 480 690 514" class="thin-arrow" stroke="#3f7fa9" marker-end="url(#arrowBlue)"/>
+  <path d="M1030 640 C1014 675 1000 698 975 715" class="thin-arrow" stroke="#3f7fa9" marker-end="url(#arrowBlue)"/>
+</svg>
