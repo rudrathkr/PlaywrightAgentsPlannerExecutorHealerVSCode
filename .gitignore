@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+playwright-report/
+playwright-artifacts/
+test-results/.last-run.json
+.playwright-mcp/
+trace.zip
+*.log
